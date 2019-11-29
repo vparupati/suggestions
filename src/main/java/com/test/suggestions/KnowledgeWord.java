@@ -26,7 +26,7 @@ public class KnowledgeWord {
     /**
      * returns top suggestion based on number of occurrence
      * in case of all words occurred same number of times then it returns first element of map
-     * which is not appropriate, can be improved based on order of occurrence
+     * which is not ideal, can be improved based on order of occurrence
      * @return
      */
     public Optional<String> topSuggestion() {
